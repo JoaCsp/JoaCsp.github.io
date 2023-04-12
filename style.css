@@ -1,0 +1,133 @@
+    @font-face{
+        font-family: ebrima;
+        src: url(EBRIMABD.TTF);
+    }   
+       body{
+        background-color:rgb(184 44 237);
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+       }
+       header{
+        font-family: "ebrima";
+        display: flex;
+        background-color: rgb(108, 11, 143);
+        height: 100px;
+        box-shadow: 1px 5px  rgba(72, 4, 97, 0.726);
+        
+        
+       }
+
+       h1{
+        font-size: 60px;
+        margin-left: 20px;
+        margin-top: 15px;
+        color: white;
+        text-align: center;
+        
+       }
+       span{
+        color: yellow;
+       }
+
+       aside{
+        
+        display: block;
+       }
+      .container{
+        margin-top: 20px;
+        
+      }
+       .height{
+        height: 100vh;
+       }
+       
+
+       .search{
+       position: relative;
+       box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+       
+         
+       }
+
+       .search input{
+
+        height: 60px;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4;
+
+
+       }
+
+
+       .search input:focus{
+
+        box-shadow: none;
+        border: 2px solid blue;
+
+
+       }
+
+       .search .fa-search{
+
+        position: absolute;
+        top: 20px;
+        left: 16px;
+
+       }
+
+       .search button{
+
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        height: 50px;
+        width: 110px;
+        background: rgb(108, 11, 143);
+
+       }
+       .nav-link{
+        margin-top: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #d6d4d4;
+       }
+      
+       .nav-link::after{
+        color: yellow;
+       }
+       .nav-link:visited{
+        color: white;
+       }
+       .nav-link:hover{
+        color: yellow;
+       }
+       .btn{
+        background-color: rgba(108, 11, 143, 0.596);
+        border: none;
+        box-shadow: 1px 5px rgba(72, 4, 97, 0.726);
+       }
+       .search button{
+        box-shadow: none;
+       }
+       .search button:hover{
+        background-color: rgb(240, 240, 1);
+        color: black;
+       }
+       .btn {
+        color: antiquewhite;
+       }
+       .btn:hover{
+        background-color: rgb(240, 240, 1);
+        color: black;
+       }
+       .pagination{
+        justify-content: center;
+       }
+       iframe{
+        margin-top: 50px;
+        margin-left: 270px;
+       }
+       footer{
+        justify-content: center;
+        height: 100px;
+        margin-top: 100%;
+       }
